@@ -2,12 +2,11 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongodb": "^6.0.0",
-    "mongoose": "^7.5.0"
+    "mongoose": "^7.5.4"
   },
   "name": "api_restful_mongodb",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
