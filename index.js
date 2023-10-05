@@ -62,7 +62,7 @@ app.patch('/updatelocation/:id', async (req, res) => {
             res.status(422).json({ message: 'Localização não encontrado!' })
             return
         }
-        res.status(200).json(updatedLocation)
+        res.status(200).json(location)
     } catch (error) {
         res.status(500).json({ erro: error })
     }
